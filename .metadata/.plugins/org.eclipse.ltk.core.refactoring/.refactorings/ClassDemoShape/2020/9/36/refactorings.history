@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Shape.area&apos; in &apos;Shape&apos;&#x0D;&#x0A;- Original project: &apos;ClassDemoShape&apos;&#x0D;&#x0A;- Original element: &apos;Shape.area&apos;&#x0D;&#x0A;- Getter method name: &apos;getArea&apos;&#x0D;&#x0A;- Setter method name: &apos;setArea&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;area&apos;" flags="589830" getter="getArea" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{Shape.java[Shape^area" insertion="1" setter="setArea" stamp="1598974428872" version="1.0" visibility="1"/>
+</session>

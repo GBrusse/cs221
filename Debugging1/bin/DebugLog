@@ -1,0 +1,10 @@
+Debugging Log
+
+On line 41: Changing "return (rear > 0);" to "return (rear == 0);"
+This allowed the boolean to return true in the IsEmpty function.
+
+On line 60: There was no counter. added a counter on line 61.
+This allowed the array to grow properly and keep accurate count.
+
+On line 75: Changed "while (i < rear)" to "while (i < rear - 1)".
+This kept the array from reading outside of its bounds.

@@ -1,0 +1,6 @@
+Debugging Log
+
+On line 41: Changing "return (rear > 0);" to "return (rear == 0);"
+This allowed the boolean to return true in the IsEmpty function.
+
+on line
