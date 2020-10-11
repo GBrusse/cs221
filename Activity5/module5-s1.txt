@@ -1,0 +1,99 @@
+student@ubuntu:~$ wget https://github.com/BoiseState/CS-HU153-resources/raw/master/activities/vimsetup.tar
+--2020-10-10 19:52:26--  https://github.com/BoiseState/CS-HU153-resources/raw/master/activities/vimsetup.tar
+Resolving github.com (github.com)... 192.30.255.112
+Connecting to github.com (github.com)|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/BoiseState/CS-HU153-resources/master/activities/vimsetup.tar [following]
+--2020-10-10 19:52:26--  https://raw.githubusercontent.com/BoiseState/CS-HU153-resources/master/activities/vimsetup.tar
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.52.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.52.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225280 (220K) [application/octet-stream]
+Saving to: ‘vimsetup.tar.1’
+
+vimsetup.tar.1      100%[===================>] 220.00K  --.-KB/s    in 0.09s   
+
+2020-10-10 19:52:26 (2.45 MB/s) - ‘vimsetup.tar.1’ saved [225280/225280]
+
+student@ubuntu:~$ tar xvf vimsetup.tar
+vimsetup/
+vimsetup/README.md
+vimsetup/.vim/
+vimsetup/.vim/colors/
+vimsetup/.vim/colors/solarized.vim
+vimsetup/.vim/colors/pyte.vim
+vimsetup/.vim/colors/summerfruit256.vim
+vimsetup/.vim/autoload/
+vimsetup/.vim/autoload/tcomment.vim
+vimsetup/.vim/plugin/
+vimsetup/.vim/plugin/tcomment.vim
+vimsetup/.vim/plugin/DoxygenToolkit.vim
+vimsetup/.gvimrc
+vimsetup/.vimrc
+vimsetup/vimsetup-install.sh
+student@ubuntu:~$ cd vimsetup
+student@ubuntu:~/vimsetup$ ./vimsetup-install.sh
+
+Vim installation completed!
+
+student@ubuntu:~/vimsetup$ cd ~
+student@ubuntu:~$ ls
+Activity5  eclipse-workspace     Public     Videos
+Desktop    Music                 snap       vimsetup
+Documents  music-collection.csv  Templates  vimsetup.tar
+Downloads  Pictures              tmp        vimsetup.tar.1
+student@ubuntu:~$ cd Activity5
+student@ubuntu:~/Activity5$ ls
+student@ubuntu:~/Activity5$ vim
+student@ubuntu:~/Activity5$ ls
+student@ubuntu:~/Activity5$ cd ..
+student@ubuntu:~$ ls
+Activity5  Downloads          music-collection.csv  snap       Videos        vimsetup.tar.1
+Desktop    eclipse-workspace  Pictures              Templates  vimsetup
+Documents  Music              Public                tmp        vimsetup.tar
+student@ubuntu:~$ cd Activity5
+student@ubuntu:~/Activity5$ ls
+student@ubuntu:~/Activity5$ vim
+student@ubuntu:~/Activity5$ ls
+hello.sh
+student@ubuntu:~/Activity5$ cat hello.sh
+#!/bin/bash
+STR="Hello world from $(hostname)!"
+echo STR
+
+chmod +x hello.sh
+./hello.sh
+
+vendor=$(lscpu | grep Vendor)
+
+
+
+student@ubuntu:~/Activity5$ vim hello.sh
+student@ubuntu:~/Activity5$ ls
+hello.sh
+student@ubuntu:~/Activity5$ cat hello.sh
+#!/bin/bash
+STR="Hello world from $(hostname)!"
+echo STR
+
+student@ubuntu:~/Activity5$ chmod +x hello.sh^C
+student@ubuntu:~/Activity5$ ./hello.sh
+bash: ./hello.sh: Permission denied
+student@ubuntu:~/Activity5$ chmod +x hello.sh
+student@ubuntu:~/Activity5$ ls
+hello.sh
+student@ubuntu:~/Activity5$ ./hello.sh 
+STR
+student@ubuntu:~/Activity5$ vim hello.sh
+student@ubuntu:~/Activity5$ ./hello.sh 
+Hello world from ubuntu!
+student@ubuntu:~/Activity5$ vim hello.sh
+student@ubuntu:~/Activity5$ vim hello.sh
+student@ubuntu:~/Activity5$ ./hello.sh 
+Hello world from ubuntu!
+./hello.sh: line 5: vendor: command not found
+student@ubuntu:~/Activity5$ vim hello.sh
+student@ubuntu:~/Activity5$ ./hello.sh 
+Hello world from ubuntu!
+Hypervisor vendor: VMware
+student@ubuntu:~/Activity5$ 
