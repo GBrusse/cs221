@@ -1,0 +1,11 @@
+README
+
+This program was written in java by the Boise State University Computer Science department and
+completed by Gary Brusse.
+
+This project revolves around using and manipulating Double Linked Lists.
+When the run configurator is made to run UIDoubleLinkedList.java, the tests will automatically run.
+The tests will test the programs ability to add and remove elements within the list, as well as add and
+remove them from specified places within the list. In addition, the tests test how the program handles in-valid
+inputs. Also tested, is the ability to get elements from specified indexes, as well as set certain indexes to hold
+given elements.
