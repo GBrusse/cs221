@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=HW4/src&lt;{TimePiece.java[TimePiece" modifiers="513" timestamp="1602203825816"/>
+    <typeInfo handle="=HW4/src&lt;{Clock.java[Clock" modifiers="1025" timestamp="1602205909190"/>
+    <typeInfo handle="=Project2/src&lt;{IndexedUnsortedList.java[IndexedUnsortedList" modifiers="513" timestamp="1606955999751"/>
+    <typeInfo handle="=Project2/C:\/Program Files\/Java\/jdk-11.0.7\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.util(Iterator.class[Iterator" modifiers="1537" timestamp="1591028416413"/>
+</typeInfoHistroy>
